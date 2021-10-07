@@ -152,8 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7b7fda4bca51c047a3e44f4a4a7b9be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementInputs: {x: 0, y: 0, z: 0}
-  ViewInputs: {x: 0, y: 0, z: 0}
+  Inputs: {x: 0, y: 0, z: 0}
 --- !u!4 &701177808
 Transform:
   m_ObjectHideFlags: 0
@@ -389,7 +388,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MovementSpeed: 10
-  CameraAncor: {fileID: 1555473253}
 --- !u!1 &1555473250
 GameObject:
   m_ObjectHideFlags: 0
