@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.AddForce(MovementForce * MovementSpeed);
+        rb.AddRelativeForce(MovementForce * MovementSpeed);
         this.transform.rotation = Quaternion.Euler(this.transform.rotation.x, PlayerInput.Instance.ViewInputs.x, this.transform.rotation.z);
         CameraAncor.localRotation = Quaternion.Euler(-PlayerInput.Instance.ViewInputs.y, CameraAncor.rotation.y, CameraAncor.rotation.z);
     }
